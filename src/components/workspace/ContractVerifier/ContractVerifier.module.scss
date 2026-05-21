@@ -1,0 +1,19 @@
+.root {
+  .form {
+    margin-top: 1rem;
+  }
+  .connectedWallet {
+    margin-top: 1rem;
+    span {
+      display: block;
+    }
+  }
+  .viewDetails:hover {
+    text-decoration: underline;
+  }
+  .contractAddress input[class*='ant-input'] {
+    [data-theme='light'] & {
+      background-color: #fff;
+    }
+  }
+}
